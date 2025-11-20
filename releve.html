@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Relevé</title>
+      <style>
+                    table, th, td {
+                        border: 1px solid black;
+                        border-collapse: collapse;
+                    }
+                    th, td {
+                        padding: 5px;
+                        text-align: left;
+                    }
+                    .fr {
+                        float: right;
+                    }
+                </style>
+   </head>
+   <body>
+      <ul>
+         <li>RIB: 011112222333344445555666</li>
+         <li>date: 2021-11-10</li>
+         <li>solde: 14500</li>
+      </ul>
+      <table>
+         <tr>
+            <th>Débit</th>
+            <th>Credit</th>
+            <th>Date</th>
+            <th>Description</th>
+         </tr>
+         <tr>
+            <td></td>
+            <td>9000 MAD</td>
+            <td>2021-01-01</td>
+            <td>Vers Espèce</td>
+         </tr>
+         <tr>
+            <td>3400 MAD</td>
+            <td></td>
+            <td>2021-01-11</td>
+            <td>Chèque Guichet</td>
+         </tr>
+         <tr>
+            <td>120 MAD</td>
+            <td></td>
+            <td>2021-01-15</td>
+            <td>Prélèvement Assurence</td>
+         </tr>
+         <tr>
+            <td></td>
+            <td>70000 MAD</td>
+            <td>2021-01-25</td>
+            <td>Virement ..</td>
+         </tr>
+         <tfoot>
+            <tr>
+               <td colspan="4">Total Débit: 
+                  <span class="fr">3520 MAD</span></td>
+            </tr>
+            <tr>
+               <td colspan="4">Total Crédit: 
+                  <span class="fr">79000 MAD</span></td>
+            </tr>
+         </tfoot>
+      </table>
+   </body>
+</html>
